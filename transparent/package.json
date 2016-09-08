@@ -1,0 +1,23 @@
+{
+	"name": "Pellet",
+	"main": "index.html",
+	"description": "Pellet",
+	"version": "0.1",
+	"keywords": [ "pellet" ],
+	"window": {
+		"title": "Pellet",
+		"icon": "images/icon.png",
+		"toolbar": false,
+		"frame": false,
+		"transparent": true,
+		"resizable": false,
+		"always_on_top": true,
+		"focus": true,
+		"width": 240,
+		"height": 240
+	},
+	"webkit": {
+		"page-cache": false,
+		"plugin": false
+	}
+}

@@ -1,0 +1,67 @@
+/* CSS Helper Effects */
+.zoom {
+	-webkit-transition : all 1s ease;
+	-moz-transition    : all 1s ease;
+	-ms-transition     : all 1s ease;
+	-o-transition      : all 1s ease;
+	transition         : all 1s ease;
+}
+
+.zoom:hover {
+	-webkit-transform : scale(1.25);
+	-moz-transform    : scale(1.25);
+	-ms-transform     : scale(1.25);
+	-o-transform      : scale(1.25);
+	transform         : scale(1.25);
+}
+
+.tilt {
+	-webkit-transition : all 0.5s ease;
+	-moz-transition    : all 0.5s ease;
+	-ms-transition     : all 0.5s ease;
+	-o-transition      : all 0.5s ease;
+	transition         : all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform : rotate(-5deg);
+	-moz-transform    : rotate(-5deg);
+	-ms-transform     : rotate(-5deg);
+	-o-transform      : rotate(-5deg);
+	transform         : rotate(-5deg);
+}
+
+.morph {
+	-webkit-transition : all 0.5s ease;
+	-moz-transition    : all 0.5s ease;
+	-o-transition      : all 0.5s ease;
+	-ms-transition     : all 0.5s ease;
+	transition         : all 0.5s ease;
+}
+
+.morph:hover {
+	border-radius            : 50%;
+	-webkit-transform-origin : 50% 50%;
+	-moz-transform-origin    : 50% 50%;
+	-ms-transform-origin     : 50% 50%;
+	-o-transform-origin      : 50% 50%;	
+	transform-origin         : 50% 50%;
+	-webkit-transform        : rotate(360deg);
+	-moz-transform           : rotate(360deg);
+	-ms-transform            : rotate(360deg);
+	-o-transform             : rotate(360deg);
+	transform                : rotate(360deg);
+}
+
+.noselect {
+	-webkit-touch-callout : none;
+	-webkit-user-select   : none;
+	-khtml-user-select    : none;
+	-moz-user-select      : none;
+	-ms-user-select       : none;
+	user-select           : none;
+	cursor: default;
+}
+.noselect:hover {
+	cursor: default;
+}

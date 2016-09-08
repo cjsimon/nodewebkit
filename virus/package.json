@@ -1,0 +1,35 @@
+{
+	"name": "Virus",
+	"main": "index.html",
+	"description": "Virus",
+	"version": "0.1",
+	"keywords": [ "virus" ],
+	"window": {
+		"title": "Virus",
+		"icon": "images/icon.png",
+		"toolbar": false,
+		"frame": false,
+		"transparent": true,
+		"resizable": false,
+		"always-on-top": true,
+		"always_on_top": true,
+		"show_in_taskbar": false,
+		"focus": true,
+		"width": 240,
+		"height": 240,
+		"min_width": 240,
+		"min_height": 240,
+		"max_width": 240,
+		"max_height": 240
+	},
+	"webkit": {
+		"page-cache": false,
+		"java": false,
+		"plugin": false
+	},
+	"repositories": [{
+		"type": "git", 
+		"url": "https://github.com/cjsimon333/virus.git",
+		"path": "/"
+	}]
+}

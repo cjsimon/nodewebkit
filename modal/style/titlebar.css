@@ -1,0 +1,36 @@
+.drag {
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+}
+
+.titlebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 29px;
+	background-color: white;
+}
+
+.close {
+	float: right;
+	background: transparent;
+	width: 45px;
+	height: 29px;
+	color: grey;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: none;
+	padding: 0px
+}
+.close:hover {
+	color: white;
+	background: #E90F0F;
+	background-image: url("images/x.png");
+}
+.close:active {
+	color: white;
+	background: #F1707A;
+	background-image: url("images/x.png");
+}

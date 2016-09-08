@@ -1,0 +1,22 @@
+{
+	"name": "Pellet",
+	"main": "index.html",
+	"description": "Demo App",
+	"version": "0.1",
+	"keywords": [ "pellet", "demo", "node-webkit" ],
+	"window": {
+		"title": "Pellet",
+		"icon": "images/icon.png",
+		"toolbar": false,
+		"frame": false,
+		"transparent": false,
+		//"position": "mouse",
+		"resizable": false,
+		"width": 640,
+		"height": 640
+	},
+	"webkit": {
+		"page-cache": false,
+		"plugin": false
+	}
+}

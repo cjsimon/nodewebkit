@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pellet</title>
+	
+	<!--Styles-->
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/titlebar.css">
+	<link rel="stylesheet" type="text/css" href="style/effects.css">
+	
+	<!--Scripts-->
+	<script type="text/javascript" src="script/index.js"></script>
+	<script type="text/javascript" src="script/keypress.js"></script>
+	<script type="text/javascript" src="script/disableDrop.js"></script>
+</head>
+
+<body class="drag noselect">
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById('canvas');
+		var c = canvas.getContext('2d');
+		c.fillStyle = 'rgba(80,255,80,0.4)';
+		c.fillRect(0, 0, canvas.width, canvas.height);
+	</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+p {
+	margin: 0px 8px;
+	border: dotted 1px;
+}
+
+#canvas {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+	border: solid 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}

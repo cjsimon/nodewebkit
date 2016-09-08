@@ -1,0 +1,16 @@
+## Ignore sublime text project files
+*.sublime-project
+*.sublime-workspace
+
+## "Other" directory
+[Oo]ther
+
+## NWJS directory and exe
+nwjs-sdk
+nw.lnk
+
+## desktop.ini
+desktop.ini
+
+## npm log files
+*.log
